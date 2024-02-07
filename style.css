@@ -1,0 +1,86 @@
+#logoimage
+{
+    width:40px;
+}
+.navbar {
+    background-color: #052a6f;
+}
+
+.nav-link {
+    color:#0db8e3;
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+}
+
+.navbar-brand {
+    color: #0db8e3;
+    font-family: 'Honk', system-ui;   
+    font-size: 30px;
+}
+.dropdown-menu{
+    background-color: #0db8e3;
+}
+
+.jumbotron{
+    background-color: #0db8e3;
+    width: 100%;
+    height: 90vh;
+    border-radius: 0;
+   
+}
+#logopng{
+    width: 640px;
+}
+
+#hero button{
+    width: 170px;
+    font-size: 30px;
+    margin-left: -70px;
+}
+
+#hero h2 {
+    color:#052a6f ;
+    font-family: 'Anton', sans-serif; 
+    font-size: 50px;
+    margin-left: -70px;
+    } 
+
+#hero h1 {
+    color:#052a6f;
+    margin-left: -70px;
+}
+
+#hero p{
+    color:#052a6f;
+    font-size: 20px;
+    margin-left: -70px;
+    
+  
+}
+
+#changetext:after {
+    content: "";
+    font-size: 65px;
+    font-family: 'Honk', system-ui;
+    animation-name: changetextpr;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changetextpr {
+    15% {
+        content: "CHINA";
+    }
+    25% {
+        content: "EGYPT";
+    }
+    50% {
+        content: "DUBAI";
+    }
+    75% {
+        content: "PETRA";
+    }
+    100% {
+        content: "INDIA";
+    }
+}
